@@ -8,13 +8,18 @@ permalink: /projects/
   {% for project in site.projects %}
     <article class="project">
 
-      <h1><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></h1>
+      <a href="{{ site.baseurl }}{{ project.url }}">
+        <img src="{{ site.baseurl }}{{ project.thumbnail }}" class="thumbnail"/>
+      </a>
+
+      <h2><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></h2>
 
       <div class="entry">
-        {{ project.content | truncatewords:40}}
+        <p>{{ project.summary }}</p>
       </div>
 
-      <a href="{{ site.baseurl }}{{ project.url }}" class="read-more">Read More</a>
+      <div class="clear"></div>
     </article>
   {% endfor %}
 </div>
+

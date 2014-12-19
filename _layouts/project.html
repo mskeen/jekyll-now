@@ -9,5 +9,28 @@ layout: default
     {{ content }}
   </div>
 
+  {% if page.carousel %}
+    <div class="flexslider">
+      <ul class="slides">
+        {% for slides in page.carousel %}
+        <li>
+          <img src="{{ slides.image }}">
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+
   {% include disqus.html disqus_identifier=page.disqus_identifier %}
 </article>
+
+
+{% if page.carousel %}
+<!-- Google CDN Hosted jQuery  -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<!-- Flexslider Library  -->
+<script src="/js/jquery.flexslider-min.js"></script>
+<!-- Initialisation Code  -->
+<script src="/js/app.js"></script>
+
+{% endif %}
