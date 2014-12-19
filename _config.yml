@@ -6,10 +6,10 @@
 name: Mike Skeen
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Kitchener, Ontario
+description: Software Developer from Kitchener, Ontario
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars1.githubusercontent.com/u/27605
+avatar: https://pbs.twimg.com/profile_images/70412651/mike_avatar.jpg
 
 #
 # Flags below are optional
@@ -18,16 +18,16 @@ avatar: https://avatars1.githubusercontent.com/u/27605
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
-  facebook:
+  email: mike@skeen.ca
+  facebook: mike.skeen
   flickr:
   github: mskeen
   instagram:
-  linkedin:
+  linkedin: mikeskeen
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: mskeen
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: users/1324439/keyzee
 
 # Your disqus shortname, entering this will enable commenting on posts
 disqus:
@@ -44,6 +44,11 @@ url: http://www.skeen.ca
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 
 #
 # !! You don't need to change any of the configuration flags below !!
