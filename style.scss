@@ -21,6 +21,7 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+  background: url('/images/background.jpg') no-repeat center center fixed;
 }
 
 .container {
@@ -28,6 +29,7 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+  background-color: rgba(255,255,255,0.85);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,8 +38,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
-  padding: 0;
+  margin: 0 0 15px;
+  padding: 1em 0 0 0;
 
   @include mobile {
     line-height: 1.4;
@@ -146,11 +148,11 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 10px;
 }
 
 .masthead {
-  padding: 20px 0;
+  margin-top: 10px;
+  padding: 10px 0 20px 0;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
@@ -186,6 +188,7 @@ img {
 }
 
 .site-name {
+  padding-top: 0;
   margin: 0;
   color: $darkGray;
   cursor: pointer;
@@ -242,9 +245,7 @@ nav {
   padding: 5px 10px;
   width: 80%;
   text-align: center;
-  background-color: #dff0d8;
-  border-top: 1px dotted #468847;
-  border-bottom: 1px dotted #468847;
+  background-color: #bfd8f0 0.0;
 }
 
 .posts > .post {
@@ -278,10 +279,6 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
 }
 
 footer {
@@ -317,6 +314,9 @@ form {
 }
 
 .project {
+  h2 {
+    padding-top: 0;
+  }
   .thumbnail {
     width: 45%;
     float: right;
@@ -324,6 +324,7 @@ form {
     margin-left: 15px;
   }
   padding-bottom: 10px;
+  margin-bottom: 20px;
   border-bottom: 1px dotted black;
 }
 
@@ -340,7 +341,7 @@ form {
     display: inline;
     font-size: 0.8em;
     font-weight: bold;
-    background-color: #C6C;
+    background-color: #4183C4;
     color: white;
     border-radius: 6px;
     padding: 5px 10px;
@@ -353,9 +354,17 @@ form {
     display: inline;
     img {
       border: 1px solid black;
-      border-radius: 6px;
       width: 32%;
     }
+  }
+}
+
+.skill-list {
+  font-size: 0.9em;
+  th {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 10px;
   }
 }
 
