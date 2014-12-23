@@ -1,8 +1,9 @@
 ---
 layout: project
 title: SOWCData
-url: http://www.sowcdata.ca
+site: http://www.sowcdata.ca
 thumbnail: /images/sowc/thumbnail.png
+pub_date: 2014-12-18
 summary: | 
   Focused on the gathering of real-time sensor data and the analysis of massive amounts of information, the SOWC data integration platform provides a level of detailed watershed monitoring information that has not been available previously.
 carousel:

@@ -1,8 +1,9 @@
 ---
 layout: project
 title: Datashift
-url: http://data-shift.ca
+site: http://data-shift.ca
 thumbnail: /images/datashift/thumbnail.png
+pub_date: 2014-12-22
 summary: | 
   Datashift pulls data from your spreadsheets and csv files automatically, and allows you to create a variety of graphics.  Create a great-looking dashboard for your team's data!<br/><br/>
 carousel:

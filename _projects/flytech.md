@@ -1,8 +1,9 @@
 ---
 layout: project
 title: Flytech
-url: http://flytech.ca
+site: http://flytech.ca
 thumbnail: /images/flytech/thumbnail.png
+pub_date: 2014-12-19
 summary: | 
   Flytech is a flight-scheduling and administration tool for flight schools/flight clubs.  It features a sophisticated risk-assessment engine that uses a wide range of factors to determine the safety of a particular flight.
 carousel:

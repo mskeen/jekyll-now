@@ -3,7 +3,12 @@ layout: default
 ---
 
 <article class="project">
-  <h1>{{ page.title }}</h1>
+  <h1><a href="/projects" title="Projects">Projects</a> » {{ page.title }}</h1>
+  <div class="project-url">
+    <a href="{{ page.site }}" title="{{ page.title }}">
+      {{ page.site }}
+    </a>
+  </div>
 
   <div class="entry">
     {{ content }}

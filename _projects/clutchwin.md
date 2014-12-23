@@ -1,8 +1,9 @@
 ---
 layout: project
 title: Clutch Win Stats
-url: http://clutchwin.com
+site: http://clutchwin.com
 thumbnail: /images/clutchwin/thumbnail.png
+pub_date: 2014-12-21
 summary: | 
   Data analysis and charting using over 100 years of major league baseball data.<br/><br/>
   Browse the data or create custom scripts to quickly retrieve the information you're looking for.
