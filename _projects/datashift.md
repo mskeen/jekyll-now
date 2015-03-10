@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Datashift
-site: http://data-shift.ca
+site: http://datashift.ca
 thumbnail: /images/datashift/thumbnail.png
 pub_date: 2014-12-22
 summary: | 
