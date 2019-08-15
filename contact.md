@@ -13,7 +13,7 @@ If you need help with a project, send me a few details using the form below. I'l
   Email: <br/>
   <input type='text' name='email' /><br/>
   Project Description: <br/>
-  <textarea rows="6" name='description'></textarea>
+  <textarea rows="6" name='message'></textarea>
   <br/>
   <input type='submit' class='button' value='Send' />
 </form>
